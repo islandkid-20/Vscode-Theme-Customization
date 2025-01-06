@@ -1,0 +1,94 @@
+{
+    "editor.fontFamily": "Dank Mono",
+    // "editor.fontFamily": "Fragment Mono",
+    // "editor.fontFamily": "Roboto",
+    // "editor.fontWeight": "bold",
+    "editor.tokenColorCustomizations": {
+      "textMateRules": [
+        {
+          "scope": ["comment", "keyword", "variable.language"],
+          "settings": {
+            "fontStyle": "italic"
+          }
+        }
+      ]
+    },
+    "editor.fontLigatures": true,
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[javascript, javascriptreact]" : {
+      "editor.formatOnSave": true
+    },
+    "breadcrumbs.enabled": false,
+    "editor.minimap.enabled": false,
+    "editor.fontSize": 10,
+    "editor.lineNumbers": "on",
+    "explorer.confirmDragAndDrop": false,
+    "editor.wordWrap": "on",
+    "explorer.confirmDelete": false,
+    "editor.cursorBlinking": "expand",
+    "editor.find.cursorMoveOnType": false,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "emmet.includeLanguages": {
+      "javascript": "javascriptreact"
+    },
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
+    "git.openRepositoryInParentFolders": "never",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "editor.accessibilitySupport": "off",
+    "terminal.integrated.env.windows": {},
+    "git.autofetch": true,
+    "workbench.statusBar.visible": true,
+    "workbench.colorTheme": "Bearded Theme Arc Blueberry",
+    "window.menuBarVisibility": "visible",
+    "workbench.layoutControl.enabled": false,
+    "window.commandCenter": false,
+    "window.zoomLevel": 0.5,
+    "workbench.colorCustomizations": {},
+    "workbench.startupEditor": "none",
+  
+    "terminal.integrated.fontSize": 11,
+    "terminal.integrated.fontFamily": "Dank Mono",
+    "workbench.iconTheme": "moxer-icons",
+  
+    "files.associations": {
+      "*.html": "html",
+      "*.css": "tailwindcss"
+    },
+    "codeium.enableConfig": {
+      "*": true,
+      "properties": true,
+      "xml": true,
+      "plaintext": true,
+      "tailwindcss": true
+    },
+    "hediet.vscode-drawio.resizeImages": null,
+    "terminal.integrated.env.linux": {},
+    "console-ninja.featureSet": "Community",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "console-ninja.warnOnNoToolsDetected": false,
+    "window.customTitleBarVisibility": "auto",
+    "workbench.activityBar.location": "hidden",
+    "terminal.integrated.env.osx": {},
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "chatgpt.lang": "en",
+    "editor.linkedEditing": true,
+    "gitlens.launchpad.staleThreshold": 30,
+    "vsicons.dontShowNewVersionMessage": true,
+    "react-native-tools.showUserTips": false,
+    "explorer.fileNesting.patterns": {
+      "*.ts": "${capture}.js",
+      "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+      "*.jsx": "${capture}.js",
+      "*.tsx": "${capture}.ts",
+      "tsconfig.json": "tsconfig.*.json",
+      "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb",
+      "*.sqlite": "${capture}.${extname}-*",
+      "*.db": "${capture}.${extname}-*",
+      "*.sqlite3": "${capture}.${extname}-*",
+      "*.db3": "${capture}.${extname}-*",
+      "*.sdb": "${capture}.${extname}-*",
+      "*.s3db": "${capture}.${extname}-*"
+    },
+    "database-client.autoSync": true
+  }
